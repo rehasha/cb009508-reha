@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century ;
+    
+}
+ul, ol{
+    margin: 25px;
+}
+
+body {
+    background-image: url(AppImages/bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+
+}
+
+#main{
+    background-image: url(AppImages/Hikkaduwas-beach-and-night-life-SS23NE.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0;
+}
+
+nav ul{
+    float: right;
+    margin-top: 25px;
+    margin: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    transition: 0.8s all;
+}
+
+nav ul li a{
+     text-decoration: none;
+     color: #fff;
+     padding: 5px 20px;
+     border: 1px solid white transparent;
+     font-weight: bold;
+}
+
+nav ul li a:hover{
+     background-color: #fff;
+     color: #000;
+}
+
+nav ul li.active a{
+     background-color: #fff;
+     color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 90px;
+    height: auto;
+    padding: 5px;
+}
+
+.text
+{
+    margin-top: 35px;
+    top: 15px;
+    right: 5px;
+    transition: translate(-50%,-50%);
+    
+    /* h3 position and color */
+    color: whitesmoke;
+    font-size: 100px;
+    text-align: center;
+}
+
+.text a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.text a.active {
+    background-color: #2196F3;
+    color: white;
+} 
+
+#train{
+    width:1518px;
+    height:525px;
+}
+
+.Sec1, .Sec2, .Sec3{
+    background-color: white;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 8px 5px #0000003b;
+    border-radius: 10px;
+}
+
+.Sec1 img{
+    width: 500px;
+}
+
+.footer{
+    padding: 40px 0;
+    background-color: grey;
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social a:hover{
+    opacity: 0.9;
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer ul li a:hover{
+    opacity: 1;
+}
+
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
+#home-1{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+    text-align: justify;
+}
+#home-12{
+    padding: 10px;
+}
+
+@media only screen and (max-device-width: 1200px){
+    #train{
+        width: 100%;
+        height: auto;
+    }
+    /* media nav tag */
+    nav ul{
+        float: center;
+        margin-top: 25px;
+        margin: right;
+        width: 100%;
+    }
+    
+    nav ul li{
+        text-align: right;
+        display: inline-block;
+        list-style-type: none;
+        transition: 0.8s all;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    nav ul li a{
+         text-decoration: none;
+         color: #fff;
+         padding: 5px 20px;
+         border: 1px solid white transparent;
+         font-weight: bold;
+         width: 100%;
+    }
+    /* end*/
+    #big{
+        width: 100px;
+        height: auto;
+    }
+    #home-1{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    #home-12 img{
+        margin-right: 20%;
+    }
+    .text{
+       font-size: 50px;
+    }
+}
+ /* WILD LIFE*/ 
+
+
+
+ .sentence{
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    font-size: 200px;
+    text-align: center;
+    opacity: 80%;
+    color: white;
+    position: absolute;
+}
+
+
+ #main2 {
+    background-image: url(AppImages/bird.jpg);
+    min-height: 600px;
+    min-width: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin: 110px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: auto auto;
+    width: 80%;
+    gap: 18px 15px; 
+    padding: 10px;
+    border: 1px solid black;
+    position: center;
+    text-align: justify;
+
+}
+.div1, .div2{
+    margin: 10px;
+    padding: 10px;
+}
+.div2 img, .div2 iframe{
+    width: 250px;
+    height: auto;
+}
+@media only screen and (max-device-width: 1200px){
+    .sentence{
+        font-size: 80px;
+        margin-top: 300px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+        margin: 20px;
+    }
+}
+
+    
